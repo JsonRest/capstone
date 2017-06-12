@@ -275,6 +275,12 @@ footer span {
     align-items: center;
   }
 
+  .mobile-header img:hover {
+    background-color: #ffffff;
+    color: white;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+  }
+
   /* BANNER MEDIA QUERY */
   #banner {
     flex-direction: column;

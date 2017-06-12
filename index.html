@@ -12,87 +12,158 @@
   <body>
 
     <!-- HEADER -->
-       <header>
-         <div class="desktop-header container">
-           <div class="logo container">
-             <img src="./resources/images/ic-logo.svg" alt="colmar academy logo" />
-             <span><b>COLMAR</b>ACADEMY</span>
+     <header>
+       <div class="desktop-header container">
+         <div class="logo container">
+           <img src="./resources/images/ic-logo.svg" alt="colmar academy logo" />
+           <span><b>COLMAR</b>ACADEMY</span>
+         </div>
+
+         <!-- NAV DESKTOP -->
+         <nav>
+           <ul>
+             <li><a href="#">On campus</a></li>
+             <li><a href="#">Online</a></li>
+             <li><a href="#">For companies</a></li>
+             <li><a href="#">Sign in</a></li>
+           </ul>
+         </nav>
+       </div>
+
+       <!-- MOBILE HEADER -->
+       <div class="mobile-header">
+         <img src="resources/images/ic-logo.svg" alt="colmar academy logo" />
+         <img src="resources/images/ic-on-campus.svg" alt="colmar academy logo" />
+         <img src="resources/images/ic-online.svg" alt="colmar academy logo" />
+         <img src="resources/images/ic-login.svg" alt="colmar academy logo" />
+       </div>
+
+     </header>
+
+     <!-- BANNER SECTION -->
+     <section id="banner" class="container">
+       <div class="primary">
+         <img src="./resources/images/banner.jpg" alt="banner" />
+       </div>
+
+       <div class="banner-content">
+         <h1>Learn something new everyday</h1>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         <a href="#" class="button">Start here</a>
+       </div>
+     </section>
+
+     <!-- INFO SECTION -->
+     <section id="info" class="container">
+       <div class="primary">
+         <img src="resources/images/information-main.jpg" alt="man studying" />
+         <h2>It doesn't hurt to keep practicing</h2>
+         <p>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."</p>
+         <p>Emanuel, Sr Strategist at Hiring.com</p>
+       </div>
+
+       <div class="secondary">
+         <div class="container">
+           <img src="resources/images/information-orientation.jpg" alt="orientation" />
+           <div class="secondary-content">
+             <h3>Orientation date</h3>
+             <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
+             <p><a href="#">Read more</a></p>
            </div>
-
-           <!--NAV-->
-           <nav>
-             <ul>
-               <li><a href="#">On campus</a></li>
-               <li><a href="#">Online</a></li>
-               <li><a href="#">For companies</a></li>
-               <li><a href="#">Sign in</a></li>
-             </ul>
-           </nav>
          </div>
 
-         <!-- MOBILE HEADER -->
-         <div class="mobile-header">
-           <img src="resources/images/ic-logo.svg" alt="colmar academy logo" />
-           <img src="resources/images/ic-on-campus.svg" alt="colmar academy logo" />
-           <img src="resources/images/ic-online.svg" alt="colmar academy logo" />
-           <img src="resources/images/ic-login.svg" alt="colmar academy logo" />
+         <div class="container">
+           <img src="resources/images/information-campus.jpg" alt="orientation" />
+           <div class="secondary-content">
+             <h3>Our campus</h3>
+             <p>Find which campus is close by you</p>
+             <p><a href="#">Read more</a></p>
+           </div>
          </div>
 
-       </header>
+         <div class="container highlight">
+           <img src="resources/images/information-guest-lecture.jpg" alt="orientation" />
+           <div class="secondary-content">
+             <h3>Our guest lecture</h3>
+             <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+             <p><a href="#">Read more</a></p>
+           </div>
+         </div>
+       </div>
+     </section>
 
-       <!-- BANNER -->
-           <section id="banner" class="container">
-             <div class="primary">
-               <img src="./resources/images/banner.jpg" alt="banner" />
-             </div>
+     <!-- COURSES SECTION -->
+     <section id="courses">
+       <h2>Start learning</h2>
 
-             <div class="banner-content">
-               <h1>Learn something new everyday</h1>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-               <a href="#" class="button">Start here</a>
-             </div>
-           </section>
+       <!-- COURSES SHOWN IN DESKTOP -->
+       <div class="container">
+         <div class="courses-content">
+           <img src="resources/images/course-software.jpg" alt="software engineering" />
+           <div class="courses-info">
+             <h3>Software engineering</h3>
+             <h4>COURSES</h4>
+             <p>Web Development, Mobile Development, iOT, APIs</p>
+           </div>
+         </div>
 
-       <!-- INFO -->
-           <section id="info" class="container">
-             <div class="primary">
-               <img src="resources/images/information-main.jpg" alt="man studying" />
-               <h2>It doesn't hurt to keep practicing</h2>
-               <p>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."</p>
-               <p>Emanuel, Sr Strategist at Hiring.com</p>
-             </div>
+         <div class="courses-content">
+           <img src="resources/images/course-computer-art.jpg" alt="software engineering" />
+           <div class="courses-info">
+             <h3>Computer art</h3>
+             <h4>COURSES</h4>
+             <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
+           </div>
+         </div>
 
-             <div class="secondary">
-               <div class="container">
-                 <img src="resources/images/information-orientation.jpg" alt="orientation" />
-                 <div class="secondary-content">
-                   <h3>Orientation date</h3>
-                   <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
-                   <p><a href="#">Read more</a></p>
-                 </div>
-               </div>
+         <div class="courses-content">
+           <img src="resources/images/course-design.jpg" alt="software engineering" />
+           <div class="courses-info">
+             <h3>Design</h3>
+             <h4>COURSES</h4>
+             <p>User Experience Design, User Research, Visual Design</p>
+           </div>
+         </div>
 
-               <div class="container">
-                 <img src="resources/images/information-campus.jpg" alt="orientation" />
-                 <div class="secondary-content">
-                   <h3>Our campus</h3>
-                   <p>Find which campus is close by you</p>
-                   <p><a href="#">Read more</a></p>
-                 </div>
-               </div>
+         <div class="courses-content">
+           <img src="resources/images/course-data.jpg" alt="software engineering" />
+           <div class="courses-info">
+             <h3>Data</h3>
+             <h4>COURSES</h4>
+             <p>Data Science, Big Data, SQL, Data Visualization</p>
+           </div>
+         </div>
 
-               <div class="container highlight">
-                 <img src="resources/images/information-guest-lecture.jpg" alt="orientation" />
-                 <div class="secondary-content">
-                   <h3>Our guest lecture</h3>
-                   <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-                   <p><a href="#">Read more</a></p>
-                 </div>
-               </div>
-             </div>
-           </section>
+         <div class="courses-content">
+           <img src="resources/images/course-business.jpg" alt="software engineering" />
+           <div class="courses-info">
+             <h3>Business</h3>
+             <h4>COURSES</h4>
+             <p>Product Development, Business Development Startup</p>
+           </div>
+         </div>
 
+         <div class="courses-content">
+           <img src="resources/images/course-marketing.jpg" alt="software engineering" />
+           <div class="courses-info">
+             <h3>Marketing</h3>
+             <h4>COURSES</h4>
+             <p>Analytics, Content Marketing, Mobile Marketing</p>
+           </div>
+         </div>
+       </div>
 
+       <!-- COURSES SHOWN IN MOBILE -->
+      <div class="mobile-courses">
+        <h3>Software engineering</h3>
+        <h3>Computer art</h3>
+        <h3>Design</h3>
+        <h3>Data</h3>
+        <h3>Business</h3>
+        <h3>Marketing</h3>
+      </div>
+
+    </section>
 
 
   </body>

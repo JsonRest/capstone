@@ -121,6 +121,11 @@ nav li {
   margin-right: 1rem;
 }
 
+nav a:hover {
+  color: black;
+  text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
+}
+
 .mobile-header {
   display: none;
 }
@@ -323,6 +328,12 @@ footer span {
     padding: 16px;
     margin-bottom: 8px;
     color: white;
+  }
+
+  .mobile-courses h3:hover {
+    background-color: #4a899f;
+    color: white;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
   }
 
   /* THESIS MEDIA QUERY */

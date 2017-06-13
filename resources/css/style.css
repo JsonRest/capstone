@@ -76,7 +76,8 @@ p {
 h1 {
   font-size: 2.5rem;
   margin: 0;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Roboto-condensed', sans-serif;
+  font-weight: 700;
 }
 
 h2 {
@@ -86,7 +87,8 @@ h2 {
   padding-bottom: 2rem;
   font-size: 2rem;
   margin: 0;
-  font-family: 'El Messiri', sans-serif;
+  font-family: 'Roboto-condensed', sans-serif;
+  font-weight: 700;
 }
 
 h3 {
@@ -129,6 +131,15 @@ nav a:hover {
 .mobile-header {
   display: none;
 }
+
+.container span:first-child {
+  font-weight: bold;
+}
+
+.container span:last-child {
+  font-weight: lighter;
+}
+
 
 /* BANNER */
 

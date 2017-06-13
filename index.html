@@ -2,12 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Capstone Colmar Academy</title>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="resources/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Acme|El+Messiri|Overpass" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="./resources/css/reset.css"> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway|El+Messiri|Overpass" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:500,800|Roboto+Condensed:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <title>Capstone Colmar Academy</title>
     <meta name="viewport" content="initial-scale=1.0">
   </head>
   <body>
@@ -22,7 +26,7 @@
 
          <!-- NAV DESKTOP -->
          <nav>
-           <ul>
+           <ul role="presentation">
              <li><a href="#">On campus</a></li>
              <li><a href="#">Online</a></li>
              <li><a href="#">For companies</a></li>
@@ -34,9 +38,9 @@
        <!-- MOBILE HEADER -->
        <div class="mobile-header">
          <a href="#"><img src="./resources/images/ic-logo.svg" alt="colmar academy logo" /></a>
-         <a href="#"><img src="./resources/images/ic-on-campus.svg" alt="colmar academy logo" /></a>
-         <a href="#"><img src="./resources/images/ic-online.svg" alt="colmar academy logo" /></a>
-         <a href="#"><img src="./resources/images/ic-login.svg" alt="colmar academy logo" /></a>
+         <a href="#"><img src="./resources/images/ic-on-campus.svg" alt="campus icon" /></a>
+         <a href="#"><img src="./resources/images/ic-online.svg" alt="online icon" /></a>
+         <a href="#"><img src="./resources/images/ic-login.svg" alt="login icon" /></a>
        </div>
 
      </header>
@@ -44,7 +48,7 @@
      <!-- BANNER SECTION -->
      <section id="banner" class="container">
        <div class="primary">
-         <img src="./resources/images/banner.jpg" alt="banner" />
+         <img src="./resources/images/banner.jpg" alt="students studying on table" />
        </div>
 
        <div class="banner-content">
@@ -57,16 +61,16 @@
      <!-- INFO SECTION -->
      <section id="info" class="container">
        <div class="primary">
-         <img src="./resources/images/information-main.jpg" alt="man studying" />
+         <img src="./resources/images/information-main.jpg" alt="man reading a book" />
          <h2>It doesn't hurt to keep practicing</h2>
          <p>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."</p>
-         <p>Emanuel, Sr Strategist at Hiring.com</p>
+         <p aria-label="reference quote">Emanuel, Sr Strategist at Hiring.com</p>
        </div>
 
        <div class="secondary">
 
          <div class="container">
-           <img src="./resources/images/information-orientation.jpg" alt="orientation" />
+           <img src="./resources/images/information-orientation.jpg" alt="top view of students walking in stone pavement" />
            <div class="secondary-content">
              <h3>Orientation date</h3>
              <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
@@ -75,7 +79,7 @@
          </div>
 
          <div class="container">
-           <img src="./resources/images/information-campus.jpg" alt="orientation" />
+           <img src="./resources/images/information-campus.jpg" alt="view of campus in a rustic cafe" />
            <div class="secondary-content">
              <h3>Our campus</h3>
              <p>Find which campus is close by you</p>
@@ -84,7 +88,7 @@
          </div>
 
          <div class="container highlight">
-           <img src="./resources/images/information-guest-lecture.jpg" alt="orientation" />
+           <img src="./resources/images/information-guest-lecture.jpg" alt="old professor with glasses smiling" />
            <div class="secondary-content">
              <h3>Our guest lecture</h3>
              <p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -97,7 +101,7 @@
 
      <!-- COURSES SECTION -->
      <section id="courses">
-       <h2>Start learning</h2>
+       <h2 aria-label="Courses available">Start learning</h2>
 
        <!-- COURSES SHOWN IN DESKTOP -->
        <div class="container">
@@ -111,7 +115,7 @@
          </div>
 
          <div class="courses-content">
-           <img src="./resources/images/course-computer-art.jpg" alt="software engineering" />
+           <img src="./resources/images/course-computer-art.jpg" alt="computer art" />
            <div class="courses-info">
              <h3>Computer art</h3>
              <h4>COURSES</h4>
@@ -120,7 +124,7 @@
          </div>
 
          <div class="courses-content">
-           <img src="./resources/images/course-design.jpg" alt="software engineering" />
+           <img src="./resources/images/course-design.jpg" alt="design" />
            <div class="courses-info">
              <h3>Design</h3>
              <h4>COURSES</h4>
@@ -129,7 +133,7 @@
          </div>
 
          <div class="courses-content">
-           <img src="./resources/images/course-data.jpg" alt="software engineering" />
+           <img src="./resources/images/course-data.jpg" alt="data" />
            <div class="courses-info">
              <h3>Data</h3>
              <h4>COURSES</h4>
@@ -138,7 +142,7 @@
          </div>
 
          <div class="courses-content">
-           <img src="./resources/images/course-business.jpg" alt="software engineering" />
+           <img src="./resources/images/course-business.jpg" alt="business" />
            <div class="courses-info">
              <h3>Business</h3>
              <h4>COURSES</h4>
@@ -147,7 +151,7 @@
          </div>
 
          <div class="courses-content">
-           <img src="./resources/images/course-marketing.jpg" alt="software engineering" />
+           <img src="./resources/images/course-marketing.jpg" alt="marketing" />
            <div class="courses-info">
              <h3>Marketing</h3>
              <h4>COURSES</h4>
@@ -157,7 +161,7 @@
        </div>
 
        <!-- COURSES SHOWN IN MOBILE -->
-      <div class="mobile-courses">
+      <div class="mobile-courses" aria-label="Courses available">
         <h3>Software engineering</h3>
         <h3>Computer art</h3>
         <h3>Design</h3>
@@ -173,7 +177,7 @@
        <h2>Thesis exhibit</h2>
        <div class="container">
          <div class="primary">
-           <video src="./resources/videos/thesis.mp4" autoplay loop controls></video>
+           <video src="./resources/videos/thesis.mp4" autoplay loop controls aria-label="video of urban building">Your browser does not support this Video format</video>
            <h3>Reimagine urban</h3>
            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source</p>
          </div>
